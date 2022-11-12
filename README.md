@@ -9,7 +9,9 @@ _Summary_: In this Jupyter Notebook, I explain how I extracted 6 years of pedome
 
 _Technical learnings_: I made this project to allow me coding in Python, a programming language that is very new to me (I am coding only in SQL and R at work). This was also an amazing opportunity for trying Markdown format. Finally, this project was very interesting from a data analysis point of view since the data were quite messy and hard to understand. The removal of duplicates was crucial: keeping them would have made me overestimate my step counts by about 20% (!).
 
-![Samsung_health_iconography](https://user-images.githubusercontent.com/116331323/197266022-da69128c-7a33-4300-9d30-1bdd1c3957b1.png)
+_Video preview of the Jupyter Notebook_ <br>
+Tip: Click on the file "Pedometer_data_markdown.ipynb" in the present repository to read the file.
 
+https://user-images.githubusercontent.com/116331323/199810392-6b7378f3-7351-49eb-9311-16c0274f8f62.mp4
 
 
