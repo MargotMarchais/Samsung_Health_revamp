@@ -1,17 +1,26 @@
-# Samsung_Health_analysis
+# Samsung_Health_analysis_enriched_with_geographical_information
 <b>Data cleaning and analysis project written in Python (Jupyter notebook, Markdown format)</b>
 
-_Summary_: In this Jupyter Notebook, I explain how I extracted 6 years of pedometer data from my Samsung Health app. I also demonstrate how I cleaned the data (removal of duplicates and irrelevant columns) and analyzed them thanks to data visualization. In the case study, I answered the following questions : 
+_**Executive Summary**_: My goal for this project was to combine both my Samung Health and Google Maps History Location data to:
+* Get a full perspective on my workout activities in the past 6 years (running, hiking, swimming and dancing)
+* Link geographical data to my workouts. The aim was to identify the places where I did long hikes for instance.
+<br>
 
-* How many kilometers did I walk over the last 6 years ? (spoiler alert: Far more than I had imagined!)
-* How did my walking habits changed over time, and what does explain the ups and downs ?
-* Could I achieve frequently the 10,000 steps a day recommendation?
+_**Content of the repository**_:
+Because importing and cleaning the data was quite tedious for both data sources, the code has been decomposed into 3 different Jupyter Notebooks.
+* Part1 : Samsung Health focus (walking and running). Actions: I imported, cleaned, analyzed and visualized 6 years of pedometer data from my Samsung Health app (source: 1 csv file)
+* Part2 : Google Maps focus (dancing and swimming workouts). Actions: I imported, cleaned, enriched and analyzed 6 years of my Google Maps History Location data (source: dozens of JSON files).
+* Part3: Combination of the data sources into a single database. Actions: I merged data from both Samsung Health and Google Maps History Location into a single database. The output was used for creating a comprehensive Tableau dashboard about my physical activity.
+<br>
 
-_Technical learnings_: I made this project to allow me coding in Python, a programming language that is very new to me (I am coding only in SQL and R at work). This was also an amazing opportunity for trying Markdown format. Finally, this project was very interesting from a data analysis point of view since the data were quite messy and hard to understand. The removal of duplicates was crucial: keeping them would have made me overestimate my step counts by about 20% (!).
+_**Final output**_: 
+* The results of the 3 Jupyter notebooks were used for building an [interactive Tableau dahsboard](https://public.tableau.com/app/profile/margot.marchais.maurice/viz/SamsungHealthRevamp/SamsungHealthRevamp) that provides a comprehensive view of my workout activity over time
+* A non-technical case study is also available on my [blog](https://margot-marchais-maurice.webflow.io/work/samsung-health-google-maps) to provide further explanations about the why of the project and my methodology
+<br>
 
-_Video preview of the Jupyter Notebook_ <br>
-Tip: Click on the file "Pedometer_data_markdown.ipynb" in the present repository to read the file.
+_**Technical learnings**_: I made this project to improve my Python coding skills as well as my ability to manipulate deep-nested JSON files. The data were very interesting to analyze because: they were not well documented and contained lots of duplicates (Samsung Health), and quite complex to manipulate (Google Maps Location History data). 
+<br><br>
 
-https://user-images.githubusercontent.com/116331323/199810392-6b7378f3-7351-49eb-9311-16c0274f8f62.mp4
-
+_Preview of the Tableau dashboard using both Samsung Health and Google Maps data_: 
+<img width="662" alt="2022-12-08_19h45_18" src="https://user-images.githubusercontent.com/116331323/210272928-71451519-b558-4283-8c0c-0229788760dd.png">
 
