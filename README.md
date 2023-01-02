@@ -1,4 +1,4 @@
-# Samsung_Health_analysis_enriched_with_geographical_information
+# Samsung Health analysis enriched with geographical information
 <b>Data cleaning and analysis project written in Python (Jupyter notebook, Markdown format)</b>
 
 _**Executive Summary**_: My goal for this project was to combine both my Samung Health and Google Maps History Location data to:
