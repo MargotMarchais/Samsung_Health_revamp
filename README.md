@@ -14,7 +14,7 @@ Because importing and cleaning the data was quite tedious for both data sources,
 <br>
 
 _**Final output**_: 
-* The results of the 3 Jupyter notebooks were used for building an [interactive Tableau dahsboard](https://public.tableau.com/app/profile/margot.marchais.maurice/viz/SamsungHealthRevamp/SamsungHealthRevamp) that provides a comprehensive view of my workout activity over time
+* The results of the 3 Jupyter notebooks were used for building an [interactive Tableau dashboard](https://public.tableau.com/app/profile/margot.marchais.maurice/viz/SamsungHealthRevamp/SamsungHealthRevamp) that provides a comprehensive view of my workout activity over time
 * A non-technical case study is also available on my [blog](https://margot-marchais-maurice.webflow.io/work/samsung-health-google-maps) to provide further explanations about the why of the project and my methodology
 <br>
 
